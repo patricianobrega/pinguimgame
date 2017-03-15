@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jogo do Pinguim</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script type="text/javascript" src="script.js"></script>	
+</head>
+<body onkeydown="Key(event)" >
+	
+	<div id = "jogo">
+		<div id="fundo">   
+			<div id="character"></div>
+		 <div id="peixe">
+				<img src="peixe.gif" alt="peixe" style="width:30px;height:30px;">
+			</div>
+			<div id="barco">
+				<img src="barco.gif" alt="barco" style="width:80px;height:50px;">
+			</div>
+				</div>
+		<div id="timer"> 
+			<img src="timer.gif" alt="timer" style="width:60px;height:60px;"> 
+			</div>
+		<div id="objetivo"> <h2> Pinguim & Peixe </h2> 
+			<h3> Como jogar: </h3> <p> Clicar nas setas para movimentar o pinguim. </p> 
+			<h3> Objetivo: </h3> <p> Apanha um peixe e leva-o ao barco. Cada vez que fores ao barco tens de guia-lo até a doca da cidade. Rápido o tempo acaba! </p>
+				</div>
+		<div id="botoes" >
+			<img id="jogar" src="jogar.png" style="width:100px;height:50px;" onClick="window.location.reload()">
+			</div>
+			<div id = "peixesApanhados"> Apanhaste 0 peixes. </div>
+			<div id = "guardaPeixe"> Corre para o barco!</div>
+		</div>
+</body>
+</html>
